@@ -22,7 +22,7 @@
 	}
 
 	function changeColor(){
-		canvas.addEventListener(click, function(e){
+		canvas.addEventListener('click', function(e){
 			e.preventDefault();
 			if(e.target.nodeName === 'TD'){
 				e.target.style.backgroundColor = color.value;
@@ -30,3 +30,10 @@
 		});
 	}
 
+
+	sizePicker.addEventListener('submit', function(e){
+		e.preventDefault();
+		getRidOfGrid();
+		makeGrid();
+		changeColor();
+	})
