@@ -9,4 +9,14 @@
 		canvas.innerHTML = '';
 	}
 
-	
+	function makeGrid(){
+		let tr,td;
+		for(let i=1; i<=height.value; i++){
+			tr = document.createElement('tr')
+			canvas.appendChild(tr);
+			for(let x=1; x<=width.value; x++){
+				td = document.createElement('td');
+				tr.appendChild(td);
+			}
+		}
+	}
