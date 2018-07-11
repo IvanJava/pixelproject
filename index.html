@@ -2,28 +2,37 @@
 <html>
 
 <head>
-    <title>Pixel Art Maker!</title>
+    <title>Pixel Maker!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
-
+    <section id="sidebar">
+    <article id="logo">
+    <h1>Pixel Maker</h1>
+    <h1>Project</h1>
+    </article>
+    <article id="options">
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1"> Grid Width:
-        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="number" id="inputHeight" name="height" min="1" value="1"><br> Grid WidtH: 
+        <input type="number" id="inputWidth" name="width" min="1" value="1"><br>
         <input type="submit">
     </form>
 
     <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
+    <input type="color" id="colorPicker" value="#86abc4">
+    </article>
+    </section>
 
+
+
+    <section id="workSpace">
     <h2>Design Canvas</h2>
     <table id="pixelCanvas"></table>
-
+    </section>
    <script src="app.js"></script>
 </body>
 
