@@ -89,3 +89,25 @@ input[type="submit"]{
   margin-left: 25%;
 }
 
+@media screen and (max-width: 400px){
+  #logo{
+    border: none;
+  }
+
+  #sizePicker{
+    margin-right: 0;
+  margin-left: 0;
+  }
+
+input[type="submit"]{
+  width:100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#logo h1{
+    font-size: 25px;
+  }
+
+
+}
