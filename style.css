@@ -89,7 +89,7 @@ input[type="submit"]{
   margin-left: 25%;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
   #logo{
     border: none;
   }
@@ -109,5 +109,25 @@ input[type="submit"]{
     font-size: 25px;
   }
 
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+  #logo{
+    border: none;
+  }
+  #logo h1{
+    font-size: 35px;
+  }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+  #logo{
+    border: none;
+  }
+  #logo h1{
+    font-size: 45px;
+  }
 
 }
