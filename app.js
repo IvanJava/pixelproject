@@ -1,4 +1,4 @@
-	const sizePicker = document.querySelector('#sizePicker');
+	const submit = document.querySelector('#submit');
 	const color = document.querySelector('#colorPicker');
 	const width = document.querySelector('#inputWidth');
 	const height = document.querySelector('#inputHeight');
@@ -26,12 +26,16 @@
 			e.preventDefault();
 			if(e.target.nodeName === 'TD'){
 				e.target.style.backgroundColor = color.value;
+
 			}
 		});
+		
 	}
 
 
-	sizePicker.addEventListener('submit', function(e){
+
+
+	submit.addEventListener('submit', function(e){
 		e.preventDefault();
 		getRidOfGrid();
 		makeGrid();
