@@ -2,4 +2,4 @@
 Pixel Art Maker
 Now you may create a pixel art by clikcing your mouse!
 
-[► Start Creating](https://ivanjava.github.io/pixelproject/)
+[► Start Creating](https://ivanjava.github.io/pixelproject/){:target="_blank" rel="noopener"}
